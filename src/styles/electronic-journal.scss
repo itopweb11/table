@@ -1,0 +1,22 @@
+.electronicJournal {
+
+  table {
+
+    th {
+      vertical-align: middle;
+    }
+
+    td {
+
+      &:nth-child(n + 3) {
+
+        span {
+          cursor: pointer;
+        }
+      }
+
+    }
+
+  }
+
+}
